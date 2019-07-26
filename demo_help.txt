@@ -1,0 +1,16 @@
+ 1061  git fetch randomword.sh 
+ 1062  git
+ 1063  cd ..
+ 1064  mkdir Demo
+ 1065  cd 
+ 1066  ls
+ 1067  cd Demo/
+ 1068  echo "#Demo" >> README.md
+ 1069  cat README.md 
+ 1070  git init
+ 1071  git add README.md 
+ 1072  git commit -m "first commit"
+ 1073  git remote add origin https://github.com/smermelstein89/Demo.git
+ 1074  git push -u origin master
+ 1075  history
+ 1076  history | tail -n 16 > demo_help.txt
